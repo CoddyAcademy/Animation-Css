@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(143, 143, 255);
+    animation-name: sky;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+}
+.sun {
+    width: 230px;
+    height: 230px;
+    background-color: yellow;
+    margin-left: 1350px;
+    border-radius: 50%;
+    animation-name: sun ;
+    animation-duration: 18s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;  
+}
+
+.tree1{
+    animation-name: tree1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+}
+.tree1{
+    animation-name: tree1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+}
+.tree1 img{
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 750px;
+}
+
+.tree2{
+    animation-name: tree2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+}
+.tree2 img{
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 1400px;
+}
+
+.tree3{
+    animation-name: tree3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+}
+.tree3 img{
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 100px;  
+}
+
+.earth{
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+    margin-top: 342px;
+    
+}
+.garden{
+    position: absolute;
+    background-color: rgb(12, 149, 12);
+    height: 80px;
+    width: 100%;
+    margin-top: 310px;
+}
+.box img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;  
+    margin-top: -100px;
+}
+@keyframes box{
+
+    0%  {
+
+    }
+    
+    100%    {
+        margin-left: 1290px;
+    }
+
+
+}
+
+@keyframes  tree1{
+
+    from{
+
+    }
+
+    to{
+        margin-left: -400px;
+
+    }
+
+}
+
+
+@keyframes  tree2{
+
+    from{
+
+    }
+
+    to{
+        margin-left: -400px;
+
+    }
+
+}
+
+
+@keyframes  tree3{
+
+    from{
+
+    }
+
+    to{
+        margin-left: -400px;
+
+    }
+
+}
+
+@keyframes sky{
+    0%  {
+
+    }
+    50%    {
+        background-color: orangered;
+    }
+    100%    {
+        background-color: rgb(4, 4, 92);
+    }
+}
+
+@keyframes sun{
+
+    0%  {
+
+    }
+
+    50% {
+        margin-left: -100px;
+    }
+    75% {
+        background-color: gainsboro;
+        animation-delay: 2s;
+    }
+
+    100%    {   
+        
+    }
+
+
+
+}
+
+   
